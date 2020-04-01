@@ -5,7 +5,7 @@
 // NOTE - FastLED.show(); must always be called upon changing the color value.
 // This tells the controller to apply the said changes to the given led(s).
 
-//--- METHODS 
+//--- METHODS
 
 //--- INIT method
 void initializeLEDS()

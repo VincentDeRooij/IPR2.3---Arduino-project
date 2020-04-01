@@ -73,7 +73,7 @@ void loop()
     switch (currentState) // this is the switch case which swaps between the different RGB methods
     {
       case 0:
-        
+
         break;
 
       case 1:
@@ -109,11 +109,11 @@ void loop()
         }
         break;
 
-        case 5:
+      case 5:
         if (buttonState() == 1)
         {
           clearAllLeds();
-          Serial.println("Clears all colors");       
+          Serial.println("Clears all colors");
         }
         break;
 
